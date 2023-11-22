@@ -1,0 +1,29 @@
+.nomeCor{
+    font-size: 15px;
+    font-weight: normal
+}
+
+#amarelo{
+    color: #f4ce15;
+}
+
+#vermelho{
+    color: #fe0000;
+}
+
+#azul{
+    color: #00a8ff;
+}
+
+#marron{
+    color: #ead6bb;
+}
+
+#violeta{
+    color: #610c9f;
+}
+
+img{
+    height: 120px;
+    width: 120px;
+}

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Linefont&display=swap');
 html {
     font-size: xx-large;
 }
@@ -31,5 +32,6 @@ h1 {
 
 #fonte {
     font-family: 'Bungee Spice', sans-serif;
+    font-family: 'Linefont', serif;
 }
 
