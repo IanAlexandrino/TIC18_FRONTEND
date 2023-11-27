@@ -1,0 +1,38 @@
+#texto_g1{
+    font-size: 13px;
+    color: red;
+}
+
+#texto_universo{
+    font-size: 20px;
+    color: black;
+}
+
+#texto_blog_pimenta{
+    font-size: 20px;
+    color: lawngreen;
+}
+
+.font_size{
+    font-size: 22px;
+}
+
+#texto_pagina{
+    padding-left: 60px;
+}
+
+#texto_selectors{
+    padding-left: 80px;
+}
+
+.alinha_link_g1{
+    padding-left: 90px;
+}
+
+.alinha_link_uni{
+    padding-left: 40px;
+}
+
+.alinha_link_blog{
+    padding-left: 60px;
+}
