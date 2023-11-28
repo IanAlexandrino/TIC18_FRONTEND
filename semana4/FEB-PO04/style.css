@@ -56,6 +56,11 @@ body{
     transition-duration: 0.4s;
 }
 
+.botao:active{
+    transform: scale(0.90);
+    transition-duration: 0.4s;
+}
+
 ul{
     margin: 15px 0;
     list-style: "✓";
