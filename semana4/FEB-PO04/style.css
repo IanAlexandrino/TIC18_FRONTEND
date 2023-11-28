@@ -39,7 +39,7 @@ body{
 }
 
 .botao{
-   background-color: #8DD621;
+   background-color: #4d7413;
    border: 0; 
    width: 70px;
    height: 30px;
@@ -49,7 +49,11 @@ body{
 }
 
 .botao:hover{
-    background-color: #4d7413;
+    background-color: #8DD621;
+    cursor: pointer;
+    box-shadow: 0 6px rgb(75, 75, 75);
+    transform: translateY(10px);
+    transition-duration: 0.4s;
 }
 
 ul{
