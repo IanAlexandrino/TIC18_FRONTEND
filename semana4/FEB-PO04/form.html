@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROTEIRO DE VIAGENS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <h1>
+            ROTEIRO DE VIAGENS
+        </h1>
+    </header>
+    <div id="caixa_pagina">
+        <div class="caixa_destinos">
+
+        </div>
+    </div>
+    <hr>
+    <form name="informacoes_destino" id="informacoes_destino" action="#" method="post">
+        <label>
+            URL da imagem do destino:
+        </label>
+        <input type="text" name="url_imagem" class="input_valores" id="url_imagem" placeholder="Cole a URL aqui..." >
+        <label>
+            Local de destino:
+        </label>
+        <input type="text" name="destino_viagem" class="input_valores" id="destino" placeholder="Ex: Salvador">
+        <label>
+            Tipo da viagem:
+        </label>
+        <input type="text" name="tipo_viagem" class="input_valores" id="tipo_viagem" placeholder="Ex: Aéreo ida e volta">
+        <label>
+            Diárias:
+        </label>
+        <input type="text" name="diaria_viagem" class="input_valores" id="diaria_viagem" placeholder="Ex: 03 diárias">
+        <label>
+            Serviços:
+        </label>
+        <input type="text" name="servicos_viagem" class="input_valores" id="servicos_viagem" placeholder="Ex: Café da manhã">
+        <label>
+            Preço do pacote:
+        </label>
+        <input type="text" name="preco_pacote" class="input_valores" id="preco_pacote" placeholder="Ex: R$900,00">
+        <input type="submit" name="botao_enviar" id="botao_enviar" value="Inserir">
+    </form>
+</body>
+</html>
