@@ -1,54 +1,67 @@
 function preencheJson(value){
 
+    var titulo;
+    var primeiraDescricao;
+    var segundaDescricao;
+    var terceiraDescricao;
+    var preco;
+    var valorPacote = {
+        "Destino": "",
+        "Descrição 1": "",
+        "Descrição 2": "",
+        "Descrição 3": "",
+        "Preço": ""
+    } 
+
     if (value == 1){
 
-        var tituloSalvador = document.getElementById("titulo_salvador").innerText;
-        var primeiraDescricaoSalvador = document.getElementById("li_1_salvador").innerText;
-        var segundaDescricaoSalvador = document.getElementById("li_2_salvador").innerText;
-        var terceiraDescricaoSalvador = document.getElementById("li_3_salvador").innerText;
-        var precoSalvador = document.getElementById("preco_salvador").innerText;
-        var valorPacoteSalvador = {
-            "Lugar": tituloSalvador,
-            "Descrição 1": primeiraDescricaoSalvador,
-            "Descrição 2": segundaDescricaoSalvador,
-            "Descrição 3": terceiraDescricaoSalvador,
-            "Preço": precoSalvador
+        titulo = document.getElementById("titulo_salvador").innerText;
+        primeiraDescricao = document.getElementById("li_1_salvador").innerText;
+        segundaDescricao = document.getElementById("li_2_salvador").innerText;
+        terceiraDescricao = document.getElementById("li_3_salvador").innerText;
+        preco = document.getElementById("preco_salvador").innerText;
+        valorPacote = {
+            "Destino": titulo,
+            "Descrição 1": primeiraDescricao,
+            "Descrição 2": segundaDescricao,
+            "Descrição 3": terceiraDescricao,
+            "Preço": preco
         }
 
-        console.log(valorPacoteSalvador);
+        console.log(valorPacote);
         
     } else if (value == 2){
 
-        var tituloFortaleza = document.getElementById("titulo_fortaleza").innerText;
-        var primeiraDescricaoFortaleza = document.getElementById("li_1_fortaleza").innerText;
-        var segundaDescricaoFortaleza = document.getElementById("li_2_fortaleza").innerText;
-        var terceiraDescricaoFortaleza = document.getElementById("li_3_fortaleza").innerText;
-        var precoFortaleza = document.getElementById("preco_fortaleza").innerText;
-        var valorPacoteFortaleza = {
-            "Lugar": tituloFortaleza,
-            "Descrição 1": primeiraDescricaoFortaleza,
-            "Descrição 2": segundaDescricaoFortaleza,
-            "Descrição 3": terceiraDescricaoFortaleza,
-            "Preço": precoFortaleza
+        titulo = document.getElementById("titulo_fortaleza").innerText;
+        primeiraDescricao = document.getElementById("li_1_fortaleza").innerText;
+        segundaDescricao = document.getElementById("li_2_fortaleza").innerText;
+        terceiraDescricao = document.getElementById("li_3_fortaleza").innerText;
+        preco = document.getElementById("preco_fortaleza").innerText;
+        valorPacote = {
+            "Destino": titulo,
+            "Descrição 1": primeiraDescricao,
+            "Descrição 2": segundaDescricao,
+            "Descrição 3": terceiraDescricao,
+            "Preço": preco
         };
 
-        console.log(valorPacoteFortaleza);
+        console.log(valorPacote);
     
     } else if (value == 3){
 
-        var tituloCampinas = document.getElementById("titulo_campinas").innerText;
-        var primeiraDescricaoCampinas = document.getElementById("li_1_campinas").innerText;
-        var segundaDescricaoCampinas = document.getElementById("li_2_campinas").innerText;
-        var terceiraDescricaoCampinas = document.getElementById("li_3_campinas").innerText;    
-        var precoCampinas = document.getElementById("preco_campinas").innerText;
-        var valorPacoteCampinas = {
-            "Lugar": tituloCampinas,
-            "Descrição 1": primeiraDescricaoCampinas,
-            "Descrição 2": segundaDescricaoCampinas,
-            "Descrição 3": terceiraDescricaoCampinas,
-            "Preço": precoCampinas
+        titulo = document.getElementById("titulo_campinas").innerText;
+        primeiraDescricao = document.getElementById("li_1_campinas").innerText;
+        segundaDescricao = document.getElementById("li_2_campinas").innerText;
+        terceiraDescricao = document.getElementById("li_3_campinas").innerText;    
+        preco = document.getElementById("preco_campinas").innerText;
+        valorPacote = {
+            "Destino": titulo,
+            "Descrição 1": primeiraDescricao,
+            "Descrição 2": segundaDescricao,
+            "Descrição 3": terceiraDescricao,
+            "Preço": preco
         };
 
-        console.log(valorPacoteCampinas);
+        console.log(valorPacote);
     } 
 }
