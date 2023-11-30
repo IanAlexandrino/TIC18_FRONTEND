@@ -1,3 +1,4 @@
+
 function getElementosForm(){
     var form = document.forms[0];
     var elementos = form.elements;
