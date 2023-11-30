@@ -12,10 +12,8 @@
             ROTEIRO DE VIAGENS
         </h1>
     </header>
-    <div id="caixa_pagina">
-        <div class="caixa_destinos">
-
-        </div>
+    <div id="caixa_pagina_form">
+        
     </div>
     <hr>
     <form name="informacoes_destino" id="informacoes_destino" action="#" method="post">
@@ -43,7 +41,8 @@
             Preço do pacote:
         </label>
         <input type="text" name="preco_pacote" class="input_valores" id="preco_pacote" placeholder="Ex: R$900,00">
-        <input type="submit" name="botao_enviar" id="botao_enviar" value="Inserir">
+        <input type="button" name="botao_enviar" id="botao_enviar" value="Inserir" onclick="getElementosForm()">
     </form>
+    <script src="form.js"></script>
 </body>
 </html>
