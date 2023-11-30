@@ -142,6 +142,7 @@ hr{
     align-items: center;
     justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 #caixa_pagina_form div{
@@ -160,4 +161,8 @@ hr{
     margin: 15px 0;
     width: 140px;
     height: 100px;
+}
+
+#caixa_pagina_form h3{
+    margin-bottom: 10px;
 }
