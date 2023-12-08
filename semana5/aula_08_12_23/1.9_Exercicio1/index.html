@@ -6,8 +6,11 @@
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   </head>
   <body>
-    <select id="paises">
-        <option value="brasil">Brasil</option>
+    <select id="paises" onchange="ValorOption()">
+        <option value="Brazil">Brasil</option>
+        <option value="Africa">Africa</option>
+        <option value="Portugal">Portugal</option>
+        <option value="Russia">Russia</option>
     </select>
 
     <div id="map" style="height: 500px; width: 600px;"></div>
