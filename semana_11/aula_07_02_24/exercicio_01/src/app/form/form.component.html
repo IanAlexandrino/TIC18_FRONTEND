@@ -1,0 +1,43 @@
+<form [formGroup]="stationForm" (ngSubmit)="onSubmit()">
+    <div>
+      <label for="stationName">Nome da Estação climática:</label><br>
+      <input type="text" id="stationName" formControlName="stationName">
+      <div *ngIf="stationForm.get('stationName').invalid && (stationForm.get('stationName').dirty || stationForm.get('stationName').touched)">
+        <span *ngIf="stationForm.get('stationName').errors.required">Este campo é obrigatório</span>
+      </div>
+    </div>
+  
+    <div>
+      <label for="email">Email de notificação:</label><br>
+      <input type="email" id="email" formControlName="email">
+      <div *ngIf="stationForm.get('email').invalid && (stationForm.get('email').dirty || stationForm.get('email').touched)">
+        <span *ngIf="stationForm.get('email').errors.required">Este campo é obrigatório</span>
+        <span *ngIf="stationForm.get('email').errors.email">Por favor, insira um email válido</span>
+      </div>
+    </div>
+  
+    <div>
+      <label for="location">Localização:</label><br>
+      <input type="text" id="location" formControlName="location">
+      <div *ngIf="stationForm.get('location').invalid && (stationForm.get('location').dirty || stationForm.get('location').touched)">
+        <span *ngIf="stationForm.get('location').errors.required">Este campo é obrigatório</span>
+      </div>
+    </div>
+  
+    <div>
+      <label for="installationStatus">Status de instalação:</label><br>
+      <select id="installationStatus" formControlName="installationStatus">
+        <option value="">Selecione</option>
+        <option value="Não instalada">Não instalada</option>
+        <option value="Instalada">Instalada</option>
+        <option value="Operante">Operante</option>
+      </select>
+      <div *ngIf="stationForm.get('installationStatus').invalid && (stationForm.get('installationStatus').dirty || stationForm.get('installationStatus').touched)">
+        <span *ngIf="stationForm.get('installationStatus').errors.required">Por favor, selecione uma opção</span>
+      </div>
+    </div>
+  
+    <br>
+    <button type="submit" [disabled]="stationForm.invalid">Submit</button>
+  </form>
+  
