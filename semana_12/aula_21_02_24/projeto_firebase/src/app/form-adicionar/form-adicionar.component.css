@@ -1,0 +1,13 @@
+.div_form{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+button{
+
+    display: block;
+
+}
