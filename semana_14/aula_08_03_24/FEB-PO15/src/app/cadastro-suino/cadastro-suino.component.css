@@ -1,0 +1,20 @@
+#container_cadastro_suino{
+    margin: 100px auto;
+    width: 80%;
+
+}
+
+#titulo_cadastro{
+    text-align: center;
+    margin: 100px;
+}
+
+#btn_enviar{
+    background-color: black;
+    border: none;
+    margin: 20px;
+}
+
+#container_botao{
+    text-align: center;
+}
